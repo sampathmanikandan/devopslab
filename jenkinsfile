@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        maven 'Maven 3.8.1' // Replace with your Maven installation name
+        maven 'Maven 3.8.1' // Match with Jenkins global tools config
     }
 
     stages {
